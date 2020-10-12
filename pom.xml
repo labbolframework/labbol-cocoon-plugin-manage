@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.labbolframework</groupId>
+  <artifactId>labbol-cocoon-plugin-manage</artifactId>
+  <version>2.0.0</version>
+  <properties>
+		<labbol.version>[2.0.0,2.1.0)</labbol.version>
+		<labbol-cocoon.version>${labbol.version}</labbol-cocoon.version>
+		<yelong-http.version>1.1.0</yelong-http.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.labbolframework</groupId>
+			<artifactId>labbol-cocoon</artifactId>
+			<version>${labbol-cocoon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.yelong0216</groupId>
+			<artifactId>yelong-http</artifactId>
+			<version>${yelong-http.version}</version>
+		</dependency>
+	</dependencies>
+</project>
