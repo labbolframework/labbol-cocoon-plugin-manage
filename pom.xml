@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
 	<name>labbol-cocoon-plugin-manage</name>
 	<url>https://github.com/labbolframework/labbol-cocoon-plugin-manage.git</url>
-	<description>包含了针对jdbc的包装，以及model与数据库表的映射</description>
+	<description>缓存、模型等数据的管理</description>
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
